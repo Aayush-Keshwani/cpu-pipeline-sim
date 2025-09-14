@@ -1,0 +1,10 @@
+.DATA
+X: 5
+Y: 10
+Z: 0
+
+LOAD R1, X
+LOAD R2, Y
+ADD R3, R1, R2
+STORE R3, Z
+HALT
